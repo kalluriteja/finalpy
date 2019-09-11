@@ -1,0 +1,91 @@
+OK in this lesson we want to talk about Json which is a language that we're going to use.
+
+But why Json and verb.
+
+We are going to use this language.
+
+Okay let me explain.
+
+For example this is my mobile phone and my dictionary is running on it when I search for a verb for
+
+example helo and I want the definition I will ask this you are Oh.
+
+Which is Oxford Dictionaries dot com to tell me about my work and this U.R.L. has a service that vill
+
+Tell me about for example of .
+
+But how can I exchange data with these service.
+
+Actually there should be a language that both my application and the server that I'm getting data from
+
+can understand it and this language is called Json and the information that I have searched in my
+
+dictionary for my word will be shown from this service in a Json language so we should extract the
+
+information that we want about our work from the data that has been given from these your service.
+
+So let's get familiar with it the structure of language Json out and how we can extract the desired
+
+information from the return data that has been given from the service of Oxford Dictionaries.
+
+OK let's first see how Jason can describe a person.
+
+This is a block in Json language that shows the properties of one person first name last name is a
+
+live age and a lot of fodder takes.
+
+Let's start with the first line here.
+
+I have a string called first name which is the key.
+
+And on the right side after the column I have the value of these first name key which is for example
+
+John.
+
+So on the left side we have the keys and on the right side we have the values of these keys.
+
+And on the second line the key last name and on the right side we have the value which is the Smith
+
+the value of last name.
+
+The values can be off type boolean store for example is alive true Yes he's alive and it can be of type
+
+an integer for example for the age of John it is twenty seven.
+
+Now let's see how the address has defined.
+
+You can see that the address has its target.
+
+Curly brackets and and that b that this character brackets in Json carefully brackets means defining
+
+a new object or a new class which this address with this class has these properties street address city
+
+state postal code.
+
+So the anthracite of John is off type object.
+
+Now let's go forward of phone numbers and see what is the structure our phone numbers in Jason starting
+
+wheat.
+
+Right bracket and closing with a left bracket means a structure off our eyes.
+
+Here we have an array.
+
+This is the first index second index and this is the third index and you can see that each index starts
+
+feet opening and closing brackets charitably brackets.
+
+So each index is an object its type and number.
+
+Okay great.
+
+Now we understand how a Json can structure for a data that it has shown your first name last name
+
+is string and boolean integer or it can be an object or an array of objects and we can extract the information
+
+that we want.
+
+For example if I want the last name I can extract these key or if I want the phone numbers off jar I
+
+can X extract this key.
